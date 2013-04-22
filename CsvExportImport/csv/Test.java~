@@ -1,0 +1,11 @@
+import java.lang.*;
+import java.io.IOException;
+
+public class Test
+{
+public static void main(String[] ops) throws IOException
+{
+  CsvUnitTest csv = new CsvUnitTest();
+  csv.test();
+}
+}
